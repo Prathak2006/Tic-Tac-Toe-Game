@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #124559;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    color: #01161e;
+    background-color: #eff6e0;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem ;
+    border-radius: 1rem;
+    background-color: #aec3b0;
+    color: #01161e;
+    border: none;
+}   
+h1{
+    color: whitesmoke;
+    font-size: 9vmin;
+    margin-top: 3vmin;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem ;
+    border-radius: 1rem;
+    background-color: #aec3b0;
+    color: #01161e;
+    border: none;
+}   
+.msg{
+    color: #e63946;
+    font-size: 6vmin;
+}
+.hide{
+    display: none;
+}
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    color: white;
+}
+
+.players div {
+    padding: 10px;
+    border-radius: 10px;
+    background: #598392;
+}
+
+.active {
+    background-color: #ffb703 !important;
+    color: black;
+}
+
+.match-setup {
+    margin: 10px;
+
+}
+
+.match-setup input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.match-setup button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+#start-btn.started {
+    background-color: rgb(20, 225, 20);
+    color: white;
+}
+.match-info {
+    color: white;
+    margin: 10px;
+    font-size: 1.2rem;
+}
